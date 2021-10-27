@@ -1,0 +1,46 @@
+<html>
+<head>
+<title> FormHTML </title>
+</head>
+<body>
+   <a href="https://laelanur.github.io"> Menu</a> 
+  <h1> Form Perpustakaan Magetan </h1>  
+    <img src="Praktikum/FormHTML/perpustakaan.jpg" widht="450px" Height="500px"> 
+  <br> 
+  Simak Mengenai Perpustakaan Madiun  <a href="https://perpusda.magetan.go.id"> Klik Di sini </a>
+  <p>
+<form action="/action_page.php" method="get">
+
+<label for=“Nama"> Nama: </label>
+
+<input type="text" id="Nama" Name="Nama">
+ <br>
+<label for=“email”> Email : </label>
+
+<input type=“email” id=“email” name=“email” > 
+ <br>
+ <label for=“pass”> Password : </label>
+
+<input type=“password” id=“pass” name=“password” minlength=“8” >
+<br><br>
+Jenis Kelamin :
+<input type="radio" name="jenis_kelamin" value="laki-laki" />
+Laki - Laki
+<input type="radio" name="jenis_kelamin" value="perempuan" checked />
+Perempuan
+<br><br>
+ Kegiatan: <input type="checkbox" name="Kegiatan_membaca" /> Membaca Buku
+ <input type="checkbox" name="Kegiatan_Meminjam" checked /> Meminjam Buku 
+ <input type="checkbox" name="Kegiatan_Mengembalikan" /> Mengembalikan Buku 
+<br /> 
+Kritik dan Saran : <textarea name="komentar" rows="5" cols="20">  Ketik disini yaa
+</textarea> 
+<br /> 
+
+<br><br>
+<input type="submit" value="Submit">
+ <br> <form action="/action_page.php" method=“post">
+
+
+</body>
+</html>
